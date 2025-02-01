@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  data:
+    mongodb:
+      uri: mongodb+srv://revittejazz:<Permutatrix128>@permutatrix.z3jox.mongodb.net/?retryWrites=true&w=majority&appName=Permutatrix
+      database: Permutatrix
