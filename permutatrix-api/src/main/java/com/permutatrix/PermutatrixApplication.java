@@ -11,21 +11,18 @@ public class PermutatrixApplication {
 		SpringApplication.run(PermutatrixApplication.class, args);
 
 		// Mano eu to usando essa merda pra fazer uns calculos me deixa em paz
-		double pao = 60.00;
-		double leite = 100.00;
-		double cafe = 100.00;
-		double ovo = 100;
-		//Mistura e o que tava vivo e morreu (para o ovo nao se sentir ofendido)
-		double mistura = 300;
+		double churumino = 2;
+		double churumina = 1;
 
-		double cafeDaManha = pao + leite + cafe;
-		double almoco = (ovo + mistura)/2;
-		double janta = (ovo + mistura)/2;
+		if(churumina > churumino){
+			System.out.println("Parabens Churumina vc é a Big Person");
+			churumina++;
+		} else {
+			System.out.println("Eu esperava mais dessa relaçao");
+			churumino++;
+		}
+		System.out.println("Valor de churumina: " + churumina);
+		System.out.println("Valor de churumino: " + churumino);
+		}
 
 	}
-
-	public static double refeicoesMes(double almoco, double janta, double cafeDaManha){
-		return almoco+janta+cafeDaManha;
-	}
-
-}
