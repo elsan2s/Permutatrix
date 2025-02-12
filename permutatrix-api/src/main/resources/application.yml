@@ -4,5 +4,5 @@ spring:
       enabled: false
   data:
     mongodb:
-      uri: mongodb+srv://revittejazz:<Permutatrix128>@permutatrix.z3jox.mongodb.net/?retryWrites=true&w=majority&appName=Permutatrix
+      uri: mongodb+srv://revittejazz:<Permutatrix128>@permutatrix.z3jox.mongodb.net/?retryWrites=true&w=majority&appName=Permutatri
       database: Permutatrix
