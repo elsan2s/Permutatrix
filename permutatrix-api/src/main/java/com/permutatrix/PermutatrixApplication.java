@@ -1,5 +1,6 @@
 package com.permutatrix;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import org.springframework.boot.SpringApplication;
@@ -16,10 +17,25 @@ public class PermutatrixApplication {
 		User user = new User();
 		Scanner sn = new Scanner(System.in);
 
-		System.out.println("Digite seu nome: ");
-		String nome = sn.nextLine();
+		ArrayList<String> tarefasDaCasa = new ArrayList<String>();
+		
+		tarefasDaCasa.add("Levar Lixo");
+		tarefasDaCasa.add("Lavar Louça");
+		tarefasDaCasa.add("Lavar Roupa");
+		tarefasDaCasa.add("Varrer a Casa");
+		tarefasDaCasa.add("Passar Pano na Casa");
+		tarefasDaCasa.add("Realizar Contabilidade");
+		
+		System.out.println("Esses são os serviços da casa: ");
 
-		user.setNome(nome);
+		for (String tarefa : tarefasDaCasa) {
+			System.out.println("- " + tarefa);
+		}
+		
+		System.out.println("Digite o nome de quem vai realizar as tarefas: ");
+		String nomeDigitado = sn.nextLine();
+
+		user.setNome(nomeDigitado);
 
 		System.out.println("Nome salvo: " + user.getNome());
 
