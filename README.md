@@ -6,8 +6,9 @@ O Permutatrix é uma plataforma inovadora onde os usuários podem trocar produto
 
 A aplicação será disponibilizada para web, Android e iOS, utilizando Java + Spring Boot no backend e uma arquitetura baseada em microsserviços, garantindo escalabilidade e segurança.
 
-🚀 Funcionalidades Principais
-✅ Cadastro e Login via e-mail, redes sociais (Google, Facebook, Apple ID) e OTP.
+🚀 Funcionalidades Principais 
+
+✅ Cadastro e Login via e-mail, redes sociais (Google, Facebook, Apple ID) e OTP.<br/>
 ✅ Criação de Anúncios para troca de produtos e serviços.
 ✅ Pedidos Personalizados, onde o usuário pode listar itens ou serviços que deseja receber.
 ✅ Sistema de Propostas para negociação dentro da plataforma.
