@@ -14,7 +14,7 @@ public class PermutatrixApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PermutatrixApplication.class, args);
 
-		User user = new User();
+		User user1 = new User( "Nicole", "nick_milgoles@gmail.com", "1234");
 		Scanner sn = new Scanner(System.in);
 
 		ArrayList<String> tarefasDaCasa = new ArrayList<String>();
@@ -35,9 +35,9 @@ public class PermutatrixApplication {
 		System.out.println("Digite o nome de quem vai realizar as tarefas: ");
 		String nomeDigitado = sn.nextLine();
 
-		user.setNome(nomeDigitado);
+		user1.setNome(nomeDigitado);
 
-		System.out.println("Nome salvo: " + user.getNome());
+		System.out.println("Nome salvo: " + user1.getNome());
 
 		sn.close();
 	}
