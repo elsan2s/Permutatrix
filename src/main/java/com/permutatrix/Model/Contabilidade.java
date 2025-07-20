@@ -9,6 +9,4 @@ public class Contabilidade {
     String ritualDaSix = "Volte Joao Andrade, me desculpe nego veio.";
 
     String praFicarRico = "Estude";
-
-    String praFuderumaPuta = "Pague";
 }
