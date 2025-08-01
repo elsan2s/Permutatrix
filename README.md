@@ -1,10 +1,15 @@
 # Permutatrix
 ## 🔄✨ Plataforma de trocas inteligente sem dinheiro !!
 
-📌 Sobre o Projeto<br/>
-O Permutatrix é uma plataforma inovadora onde os usuários podem trocar produtos e serviços, sem envolver dinheiro. Diferente dos marketplaces tradicionais, aqui as negociações acontecem através de propostas diretas, garantindo uma experiência justa e acessível para todos.
+Qual problema estamos resolvendo?
+R: Falta de dinheiro para obter bens ou servicos ou seja a miseria do nosso pais Brasil.
 
-A aplicação será disponibilizada para web, Android e iOS, utilizando Java + Spring Boot no backend e uma arquitetura baseada em microsserviços, garantindo escalabilidade e segurança.
+
+📌 Sobre o Projeto<br/>
+O Permutatrix é uma plataforma inovadora onde os usuários podem trocar produtos e serviços, sem envolver dinheiro. Diferente dos marketplaces tradicionais, aqui as negociações acontecem através de propostas diretas, garantindo uma experiência justa e acessível para TODOS OS BRASILEIROS.
+
+
+A aplicação será disponibilizada para web, Android e iOS, utilizando Java + Spring Boot no backend e uma arquitetura ?hexagonal? baseada em microsserviços, garantindo escalabilidade e segurança.
 
 🚀 Funcionalidades Principais 
 
